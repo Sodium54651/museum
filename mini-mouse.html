@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>мыша</title>
+
+        <script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
+    <script src="no-borrow-mouse.js"></script>
+
+    <script>
+    var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
+    function init() {
+        canvas = document.getElementById("canvas");
+        anim_container = document.getElementById("animation_container");
+        dom_overlay_container = document.getElementById("dom_overlay_container");
+        var comp=AdobeAn.getComposition("A6C3759941583547B1F247CFCD151EDA");
+        var lib=comp.getLibrary();
+        handleComplete({},comp);
+    }
+    function handleComplete(evt,comp) {
+        //This function is always called, irrespective of the content. You can use the variable "stage" after it is created in token create_stage.
+        var lib=comp.getLibrary();
+        var ss=comp.getSpriteSheet();
+        exportRoot = new lib.мышкаспокойна_HTML5Canvas();
+        stage = new lib.Stage(canvas);	
+        //Registers the "tick" event listener.
+        fnStartAnimation = function() {
+            stage.addChild(exportRoot);
+            createjs.Ticker.framerate = lib.properties.fps;
+            createjs.Ticker.addEventListener("tick", stage);
+        }	    
+        //Code to support hidpi screens and responsive scaling.
+        AdobeAn.makeResponsive(false,'both',false,1,[canvas,anim_container,dom_overlay_container]);	
+        AdobeAn.compositionLoaded(lib.properties.id);
+        fnStartAnimation();
+    }
+    </script>
+</head>
+<body style="background-color: #77b9ed;" onload="init();" style="margin:0px;">
+    <!-- это код для добавления мышки -->
+
+        <div style="display: flex; justify-content: center;">
+            <div id="animation_container" style="width:640px; height:480px; display: flex; justify-content: center;">
+                <canvas id="canvas" width="640" height="480" style="position: absolute; display: flex; justify-content: center; flex-direction: column;"></canvas>
+                <div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:640px; height:480px;">
+                </div>
+            </div>
+        </div>
+            <h1 style="display: flex; justify-content:  center; font-family: Arial, Helvetica, sans-serif;">Ошибка: 404</h1>
+            <h3 style="display: flex; justify-content:  center; font-family: Arial, Helvetica, sans-serif;">RH - мы рабоаем над этим</h3> 
+
+</body>
+</html>

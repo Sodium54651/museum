@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/музей логотип.ico">
+    <title>Регистрация</title>
+</head>
+<body style="background-color: #77b9ed;">
+    <a class="nav-item"" href="index.html">Главная</a>
+
+<div class="center-center">
+
+    <form action="" class="form-reg">
+        <div>
+            <h1 style="display: flex; justify-content: center;">Регистрация</h1>
+            <div style="width: 500px;">
+                <div class="reg1">
+                <p>Имя*</p>
+                <input type="text" id="11" placeholder="Ваше имя" required>
+            </div>
+            <div class="reg1">
+                <p>Фамилия</p>
+                <input type="text" placeholder="Ваша Фамилия">
+            </div>
+            <div class="reg1">
+                <p>Email</p>
+                <input type="text" placeholder="Email">
+            </div>
+            <div class="reg1">
+                <p>Номер телефона*</p>
+                <input type="text" id="12" placeholder="+7-(---)" required>
+            </div>
+            <div class="reg1">
+                <p>Придумайте пароль*</p>
+                <input type="text" id="13" placeholder="Пароль" required>
+            </div>
+
+            <div class="reg1">
+                <p>Повторите пароль*</p>
+                <input type="text" id="14" placeholder="Повторите пароль" required>
+            </div>
+
+
+
+        </div>
+        <div style="display: flex; justify-content: center;">
+            <button  class="button-booking" onclick="applyForm()">Зарегистрироваться</button>
+        </div>
+
+    </form>
+
+
+
+</div>
+<script>
+    function applyForm(){
+
+        var bip = 1;
+        // bip = true;
+        for (let rhh = 1; rhh <= 4; rhh++){
+            var rh = document.getElementById('1' + rhh.toString());
+            if (rh.value.trim() == "") {bip = false; break};
+        }
+        if (bip) {alert("Вы успешно зарегистрировались");}
+    }
+</script>
+
+
+</body>
+</html>

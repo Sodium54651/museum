@@ -1,0 +1,954 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/музей логотип.ico">
+    <title>Главная</title>
+
+</head>
+
+<body style="background-color: #77b9ed; display: flex; justify-content: center;">           <!-- небесная синева #77b9ed -->    
+    
+    <input type="checkbox" style="display: none;" id="coconut">
+
+        <div id="give-me-cookie">
+            <div style="display: flex; justify-content: center;">
+                <p>
+                    Наш сайт использует файлы cookie, чтобы улучшить работу сайта,
+                    повысить его эффективность и удобство. Продолжая использовать сайт, вы
+                    соглашаетесь на использование файлов cookie
+                </p>
+                <label class="coconut-st" for="coconut">Отлично</label>
+            </div>
+        </div>
+
+
+    <div class="main">
+        <nav class="navigation">                      <!-- темноватый цвет синевы #345167 --> 
+            <div>
+                <a href="" class="nav-item">Регистрация</a>
+                <a href="" class="nav-item">Личный кабинет</a>
+                <a href="" class="nav-item">О нас</a>
+                <a href="" class="nav-item">Контакты</a>
+                <a href="" class="nav-item">Наши экскурсии</a>
+            </div>
+            <div style="padding-left: 5%;">
+                <input type="text" placeholder="Поиск" class="inputing" list="relaire123">
+                <datalist id="relaire123">
+                    <option value="Самые популярные экскурсии"><a href=""></a></option>
+                    <option value="Авторизация"></option>
+                    <option value="О нас"></option>
+                    <option value="Наши экскурсии"></option>
+                </datalist>
+            </div>
+            
+        </nav>
+
+
+
+
+
+
+        <div class="content">
+            <button class="invisuble-but" onclick="window.open('mini-mouse.html')"></button>
+            <div class="dlkj">
+
+                    <h1 class="imp-text">Самые популярные экскурсии</h1>
+            
+
+
+            <div class="slidder">
+
+
+                <div class="menu-slider">
+                    <img src="img/sobor1.jpg" class="img">
+                    <h3 class="text-h3">В Москве проводятся экскурсии по красной площади</h3>
+                    <p class="relaire">Рейтинг 4/5</p>
+                    <div class="button-next">
+                    <a href=""><button class="button">Далее</button></a>
+                    </div>
+
+                </div>
+
+                <div class="menu-slider">
+                    <img src="img/sobor2.jpg" class="img">
+                    <h3 class="text-h3">В самос простом музее присутсвует множество всего, чего ничего необычного со времён 2 мировой</h3>
+                    <p class="relaire">Рейтинг 4.5/5</p>
+                    <div class="button-next">
+                    <a href=""><button class="button">Далее</button></a>
+                    </div>
+                </div>
+
+                <div class="menu-slider">
+                    <img src="img/sobor3.jpg" class="img">
+                    <h3 class="text-h3">Экскурсии по церквям Москвы, проводятся очень долго и долгосрочно</h3>
+                    <p class="relaire">Рейтинг 4.1/5</p>
+                    <div class="button-next">
+                    <a href=""><button class="button">Далее</button></a>
+                    </div>
+                </div>
+
+                <div class="menu-slider">
+                    <img src="img/4.jpg" class="img">
+                    <h3 class="text-h3">В честь столетия столетия проводятся музейные выстовки по музею</h3>
+                    <p class="relaire">Рейтинг 4.9/5</p>
+                    <div class="button-next">
+                    <a href=""><button class="button">Далее</button></a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+            <div class="aututuin">
+                <form class="autot">
+                    <H1 class="main-text-a">Авторизация</H1>
+
+                    <div class="form-all">
+                        <input placeholder="Логин" class="login">
+                        <input placeholder="Пароль" class="login">
+                    </div>
+
+                    <a href="" class="main-text-a">Забыли пароль?</a>
+                    <div class="button-next">
+                        <a href=""><button class="button-enter">🔒Войти</button></a>
+                    </div>
+                    </form>
+                </div>
+
+                <div style="background-color: aliceblue; border-radius: 10px; padding: 15px;">
+                    <h4 class="about-text">О нас</h4>
+                    <div class="about">
+                        <div class="block1">
+                            <h2>Всё что мы знаем - это ничего не знаем, но что бы знать нам нужно это знать, а для того что бы знать нужно знать, о как</h2>
+                        </div>
+                        
+                        <div class="block1">
+                            <h2>В музейной компании развита команда одниз из лучших, лучших, которые смогут вам объяснить не объяснимое, всю историю, нашей замечательной страны, в музеях</h2>
+                        </div>
+                    </div>  
+                </div>
+
+                
+
+
+
+
+
+
+                <h1 style="padding: 15px; padding-top: 40px; font-family: Arial, Helvetica, sans-serif; display: flex; padding-left: 10%;">Наши экскурсии</h1>
+                <table class="tablee">
+                    <tr>
+                    <td class="td">    
+                        <div class="block-cards">
+                            <div class="cards"> 
+                                <div>
+                                   <img src="img/sobor1.jpg" class="img-card" alt="не сегодня">
+                                    <h3 class="h3-card">Экскурсия 1</h3> 
+                                </div>
+                                <p class="card-text">Ну понимаешь, Джоске, сначала длинная, а потом короткая, ой Джоске, ну это потом</p> 
+                            </div>
+                        </div>
+                    </td>
+
+
+                    <td class="td">    
+                        <div class="block-cards">
+                            <div class="cards"> 
+                                <div>
+                                   <img src="img/sobor3.jpg" class="img-card" alt="не сегодня">
+                                    <h3 class="h3-card">Экскурсия 2</h3> 
+                                </div>
+                                <p class="card-text">ну это короче вот оно сначало так, а потом этого вот так, и эдак, а потом так, и вот, заходите</p> 
+                            </div>
+                        </div>
+                    </td>
+                    <td class="td">    
+                        <div class="block-cards">
+                            <div class="cards"> 
+                                <div>
+                                   <img src="img/4.jpg" class="img-card" alt="не сегодня">
+                                    <h3 class="h3-card">Экскурсия 3</h3> 
+                                </div>
+                                <p class="card-text">Экскурсия по залам подолоченного века, 2 мировой войны, где можно увидить, и послушать</p> 
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="td">    
+                        <div class="block-cards">
+                            <div class="cards"> 
+                                <div>
+                                   <img src="img/sobor1.jpg" class="img-card" alt="не сегодня">
+                                    <h3 class="h3-card">Экскурсия 1</h3> 
+                                </div>
+                                <p class="card-text">Ну понимаешь, Джоске, сначала длинная, а потом короткая, ой Джоске, ну это потом</p> 
+                            </div>
+                        </div>
+                    </td>
+
+
+                    <td class="td">    
+                        <div class="block-cards">
+                            <div class="cards"> 
+                                <div>
+                                   <img src="img/sobor3.jpg" class="img-card" alt="не сегодня">
+                                    <h3 class="h3-card">Экскурсия 2</h3> 
+                                </div>
+                                <p class="card-text">ну это короче вот оно сначало так, а потом этого вот так, и эдак, а потом так, и вот, заходите</p> 
+                            </div>
+                        </div>
+                    </td>
+                    <td class="td">    
+                        <div class="block-cards">
+                            <div class="cards"> 
+                                <div>
+                                   <img src="img/4.jpg" class="img-card" alt="не сегодня">
+                                    <h3 class="h3-card">Экскурсия 3</h3> 
+                                </div>
+                                <p class="card-text">Экскурсия по залам подолоченного века, 2 мировой войны, где можно увидить, и послушать</p> 
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="td">    
+                        <div class="block-cards">
+                            <div class="cards"> 
+                                <div>
+                                   <img src="img/sobor1.jpg" class="img-card" alt="не сегодня">
+                                    <h3 class="h3-card">Экскурсия 1</h3> 
+                                </div>
+                                <p class="card-text">Ну понимаешь, Джоске, сначала длинная, а потом короткая, ой Джоске, ну это потом</p> 
+                            </div>
+                        </div>
+                    </td>
+
+
+                    <td class="td">    
+                        <div class="block-cards">
+                            <div class="cards"> 
+                                <div>
+                                   <img src="img/sobor3.jpg" class="img-card" alt="не сегодня">
+                                    <h3 class="h3-card">Экскурсия 2</h3> 
+                                </div>
+                                <p class="card-text">ну это короче вот оно сначало так, а потом этого вот так, и эдак, а потом так, и вот, заходите</p> 
+                            </div>
+                        </div>
+                    </td>
+                    <td class="td">    
+                        <div class="block-cards">
+                            <div class="cards"> 
+                                <div>
+                                   <img src="img/4.jpg" class="img-card" alt="не сегодня">
+                                    <h3 class="h3-card">Экскурсия 3</h3> 
+                                </div>
+                                <p class="card-text">Экскурсия по залам подолоченного века, 2 мировой войны, где можно увидить, и послушать</p> 
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td class="td">    
+                        <div class="block-cards">
+                            <div class="cards"> 
+                                <div>
+                                   <img src="img/4.jpg" class="img-card" alt="не сегодня">
+                                    <h3 class="h3-card">Экскурсия 3</h3> 
+                                </div>
+                                <p class="card-text">Экскурсия по залам подолоченного века, 2 мировой войны, где можно увидить, и послушать</p> 
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+
+                </table>
+
+
+
+
+
+
+                <h1 class="h3-card">Раздел комментариев</h1>
+                <div class="comments-all">
+                    <div class="comments">
+                        <p class="text-com" >хороший комментарий</p>
+                        <div class="comments-in">
+                            <div class="comments-in-in">
+                                <img src="img/user1.png" style="width: 50px; height: 50px;">
+                                <p class="text-user">Пользователь</p>
+                                <a class="text-link" href="" >ссылка↑</a>
+                            </div>
+
+                            <p class="text-link">23.12.2024</p>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="line"></div>
+
+                <h1 class="h3-card">подписаться на рассылку</h1>
+                <form action="" style="display: flex; justify-content: center;">
+                    <div style="gap: 15px; border-radius: 10px; display: flex; justify-content: center; padding: 10px; background-color: #77b9ed; width: 80%;">
+                        <input type="text" placeholder="email" class="input1">
+                        <input type="checkbox" id="check" style="transform: scale(1.5);">
+                        <label for="check" style="cursor: pointer; display: flex; align-items: center; font-family: Arial, Helvetica, sans-serif; font-weight: 700;" >подтвержение на обработук персональных данных</label>
+                        <button onclick="window.open('mini-mouse.html') " class="butty">подписаться</button>
+                    </div>
+                </form>
+
+
+                <div class="line"></div>
+
+                
+                <div class="fotage">    <!-- #fc89ac розовый "пощекочи меня" -->
+                    <div class="fotage-in">
+                        <div>
+                            <h3 class="h3-card2">+7 (353) 123-45-67</h3>
+                            <a class="link-text" href=" info@moscow.ru"> info@moscow.ru</a>
+                        </div>
+                        <div>
+                            <p class="map-siet">Карта страницы</p>
+                            <div class="kjdj">
+                                <a href="" class="nav-item">Регистрация</a>
+                                <a href="" class="nav-item">Личный кабинет</a>
+                                <a href="" class="nav-item">О нас</a>
+                                <a href="" class="nav-item">Контакты</a>
+                                <a href="" class="nav-item">Наши экскурсии</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+    </div>
+
+    
+</body>
+</html>
+
+
+
+css
+.main{
+    padding: 5% 5% 10% 5%;
+    padding-top: 10%;
+}
+
+.navigation{
+    display: flex;
+    /* justify-content: space-between; */
+    background-color: #345167;
+    border-radius: 25px 25px 0 0;
+    line-height: 75px;
+    align-items: center;
+    padding: 2px 25px 2px 25px;
+}
+
+.nav-item{
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+}
+
+.nav-item:hover{
+    background-color: #77b9ed;
+    border-radius: 25px;
+    color: black;
+}
+
+.inputing{
+    border-radius: 15px;
+    display: block;
+    transition: all 0.1s ease;
+    width: 250%;
+    height: 50px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dlkj{
+    background-color: rgb(236, 235, 235);
+    border-radius: 15px;
+    padding: 15px;
+    padding-bottom: 35px;
+}
+
+.imp-text{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
+    box-shadow: 0 6px 6px black;
+    border-radius: 25px 0 25px 0;
+}
+
+.inputing:hover{
+    transform: scale(1.2);
+}
+
+
+
+.content{
+    background-color: white;
+    border-radius: 0 0 25px 25px;
+    padding: 2%;
+}
+
+.invisuble-but{
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.slidder{
+    display: flex;
+    gap: 2%;
+    /* padding-b: 15px; */
+}
+
+.menu-slider:hover{
+    transform: scale(1.2);
+}
+
+.menu-slider{
+    width: 25%;
+    height: auto;
+    background-color: rgb(235, 235, 235);
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px black;
+    padding-bottom: 55px;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.text-h3{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+
+.img{
+    border-radius: 25px;
+    width: 100%;
+    height: 50%;
+}
+
+.relaire{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+
+
+.button-next{
+    justify-content: center;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding-top: 10px;
+    
+}
+
+.button{
+    transform: scale(1.8);
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(187, 250, 59);
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0px 3px 6px  black;
+    font-weight: 600;
+}
+
+.button:hover{
+    transform:scale(1.9);
+    background-color: rgb(136, 183, 43);
+    color: white;
+}
+
+.button:active{
+    transform: scale(1.75);
+    background-color: yellowgreen;
+}
+
+
+
+
+
+.aututuin{
+    padding: 10%;
+    justify-content: center;
+    display: flex;
+}
+
+.autot{
+    background-color: rgb(253, 50, 50);
+    padding: 10%;
+    width: 50%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.288);
+    border-radius: 25px;
+
+}
+
+.main-text-a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    align-items: center;
+    display: flex;
+}
+
+.form-all{
+    display:flex;
+    gap: 15px;
+    flex-direction: column;
+    padding-bottom: 15px;
+}
+
+.login{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    border: none;
+    background-color: bisque;
+    border-radius: 10px;
+    padding: 7px;
+    
+}
+
+
+.button-enter{
+    color: rgba(0, 0, 0, 0.539);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    background-color: rgb(255, 255, 99);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px black;
+    transform: scale(2.5);
+    width: 100%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.button-enter:hover{
+    transform: scale(2.7);
+}
+
+
+.about{
+    display: flex;
+    padding: 8px;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+.about-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    
+
+}
+
+.block1{
+    width: 500px;
+    background-color: rgb(233, 233, 233);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.553);
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all 0.3s ease;
+    padding: 7px;
+    border-radius: 10px;
+    flex-direction: row;
+}
+
+.block1:hover{
+    transform: scale(1.1);
+}
+
+
+
+.tablee{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+.block-cards{
+    background-color: rgb(240, 240, 240);
+    border-radius: 15px;
+    /* padding: 25px; */
+    display: flex;
+    /* width: 275px;
+    height: 185px; */
+    width: 85%;
+    height: 75%;
+    transition: all 0.3s ease;
+    box-shadow: 5px 0 0 rgb(100, 100, 255);
+    overflow: hidden;
+    position: relative; /* Для изоляции внутренних элементов */
+
+
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.block-cards:hover{
+    /* width: 300px; */
+    box-shadow: 15px 0 0 rgb(100, 100, 255);
+    width: 90%;
+}
+
+.td{
+    width: 400px;
+}
+
+.img-card{
+    width: 150px;
+    height: 100px;
+    left: 150px;
+}
+
+.h3-card{
+    padding-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-text{
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    width: 150px;
+    display: flex;
+    /* align-items: center; */
+}
+
+
+.comments-all{
+    display: flex;
+    padding-left: 10%;
+}
+
+
+.comments{
+    background-color: rgb(226, 226, 226);
+    border-radius: 10px;
+    padding: 12px;
+    width: 50%;
+}
+
+.comments-in{
+    display: flex;
+    justify-content: space-between;
+}
+
+.comments-in-in{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.text-user{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(52, 52, 52);
+    font-weight: 700;
+}
+
+.text-com{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-link{
+    font-family: Arial, Helvetica, sans-serif; 
+    color: rgb(110, 110, 110);
+}
+
+
+.line{
+    height: 2px;
+    width: 80%;
+    background-color: #cacaca;
+    margin: 30px auto;
+}
+
+.input1{
+    border: none;
+    height: 45px;
+    width: 30%;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+
+.butty{
+    border: none;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #2fc02f;
+    font-weight: 700;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 3px yellowgreen;
+}
+
+.butty:hover{
+    transform: scale(1.3);
+    box-shadow: 0 0 54px yellow;
+    background-color: #a4e305;
+}
+
+.butty:active{
+    transform: scale(1.1);
+    box-shadow: 0 0 32px rgb(255, 149, 0);
+    background-color: #ecb81c;
+
+}
+
+.fotage{
+    background-color: #fc89ac;
+    border-radius: 10px;
+    box-shadow: 0 0 0 blue;
+    transition: all 0.3s ease;
+    width: 80%;
+    margin: auto;
+    
+}
+
+.fotage:hover{
+    box-shadow: 0 -2px 5px blue;
+}
+
+
+.fotage-in{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    padding-right: 20%;
+}
+
+.h3-card2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+
+}
+
+.link-text{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.map-siet{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.779);
+}
+
+.kjdj{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    padding-right: 10%;
+    color: black;
+}
+
+
+
+
+
+
+
+#give-me-cookie{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 85%;
+    position: fixed;
+    display: block;
+    padding: 10px;
+    z-index: 999;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    padding: 12px;
+    box-shadow: 0 5px 12px black;
+    background-image: url('img/cookie.png'); /* Путь к картинке */
+    background-size: 200px 200px; /* Покрывает весь блок */
+    background-repeat: no-repeat; /* Избегаем повторения */
+    background-position: left; /* Центрируем картинку */
+    overflow: hidden;
+    opacity: 0.5;
+}
+
+
+#coconut:checked + #give-me-cookie{
+    display: none;
+}
+
+
+.coconut-st{
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    background-color: rgb(254, 149, 97);
+    border-radius: 10px;
+    margin: auto;
+    padding: 10px;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 0 black;
+
+}
+
+.coconut-st:hover{
+    transform: scale(1.1);
+    background-color: rgb(253, 170, 129);
+    box-shadow: 2px 3px 4px black;
+}
+
+.coconut-st:active{
+    transform: scale(1);
+    background-color: rgb(251, 130, 69);
+    box-shadow: 0 0 0 black;
+}
+
+
+/* .img-coc{
+    background-image: url('img/cookie.png');
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main-theme{
+    padding: 14px;
+    background-color: white;
+    border-radius: 15px;
+    width: 80%;
+}
+
+.make-back1{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(229, 229, 229);
+    border-radius: 15px;
+    padding: 8px;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.img-syte{
+    border-radius: 10%;
+    aspect-ratio: 2 / 1;
+    object-fit: cover;
+    width: 420px;
+    transition: all 0.3s ease;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.319);
+}
+
+.img-syte:hover{
+    transform: scale(1.3);
+    object-position: top;
+
+}
+
+.button-booking{
+    border: none;
+    background-color: #4da5e9;
+    border-radius: 15px;
+    width: 50%;
+    aspect-ratio: 3 / 1;
+    transition: all 0.3s ease;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    box-shadow: -5px 5px 6px black;
+}
+
+.button-booking:hover{
+    transform: scale(1.2);
+    background-color: #2a81c4;
+    color: white;
+}
+
